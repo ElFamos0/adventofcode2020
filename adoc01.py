@@ -1,7 +1,7 @@
 '''
 ELFAMOSO
 '''
-filin = open("adoc1.txt","r") #on ouvre le fichier en lecture
+filin = open("inputs/adoc01.txt","r") #on ouvre le fichier en lecture
 nombres = filin.readlines()
 for i in range(len(nombres)):
     nombres[i]= nombres[i].strip("\n")

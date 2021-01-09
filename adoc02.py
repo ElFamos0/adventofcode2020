@@ -2,7 +2,7 @@
 ELFAMOSO
 Donner seulement les mots de passes valides
 '''
-with open("adoc2.txt") as file:
+with open("inputs/adoc02.txt") as file:
     data = [line for line in file]
 
 #Partie1

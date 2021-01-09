@@ -2,7 +2,7 @@
 Les # sont des arbres et les . sont des endroits sans arbres le même pattern se repète vers la droite un nombre incalculable de fois.
 On fait une diagonale du type 3 vers la droite et 1 vers le bas mais petit problème sur l'exemple ça pue la merde ! 
 '''
-with open("adoc3.txt") as file:
+with open("inputs/adoc03.txt") as file:
     grid = [line[0:-1] for line in file] #ok donc [0,-1] ça sert bien à enlever le dernier terme on va du premier à l'avant dernier en gros mais du coup ça veut dire que \n compte comme un unique caractère interressant a savoir
 
 def check(right,bottom):
